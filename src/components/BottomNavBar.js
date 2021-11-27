@@ -42,7 +42,7 @@ const BottomNavBar = props => {
                     /> :
                     <AiOutlineHome
                         size='35'
-                        color='#000'
+                        color='#183663'
                         onClick={() => setActiveTabs('home')}
                     />}
             </div>
@@ -55,7 +55,7 @@ const BottomNavBar = props => {
                     /> :
                     <GiPublicSpeaker
                         size='35'
-                        color='#fff'
+                        color='#183663'
                         onClick={() => setActiveTabs('about')}
                     />}
             </div>
@@ -68,7 +68,7 @@ const BottomNavBar = props => {
                     /> :
                     <ImBullhorn
                         size='35'
-                        color='#fff'
+                        color='#183663'
                         onClick={() => setActiveTabs('volunteer')}
                     />}
             </div>
@@ -81,7 +81,7 @@ const BottomNavBar = props => {
                     /> :
                     <GiVote
                         size='35'
-                        color='#fff'
+                        color='#183663'
                         onClick={() => setActiveTabs('vote')}
                     />}
             </div>
@@ -94,7 +94,7 @@ const BottomNavBar = props => {
                     /> :
                     <GiWallet
                         size='35'
-                        color='#fff'
+                        color='#183663'
                         onClick={() => setActiveTabs('donate')}
                     />}
             </div>
