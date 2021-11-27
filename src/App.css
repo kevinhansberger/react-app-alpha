@@ -11,10 +11,11 @@
   align-items: center;
   position: fixed;
   bottom: 0;
-  border-top: 1px solid rgb(230, 230, 230);
+  border-top: 1px solid #183663;
+  background-color: #11b14c;
 }
 .bn-tab {
-  width: 25%;
+  width: 20%;
   height: 100%;
   display: flex;
   justify-content: center;

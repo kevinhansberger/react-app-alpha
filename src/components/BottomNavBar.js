@@ -1,10 +1,9 @@
 import { useState, useEffect } from 'react'
 import { useHistory } from 'react-router-dom'
 
-import { RiHomeSmile2Line, RiHomeSmile2Fill, RiUser5Fill, RiSearchEyeFill } from 'react-icons/ri'
-import { BiSearchAlt } from 'react-icons/bi'
-import { AiOutlineHeart, AiFillHeart } from 'react-icons/ai'
-import { RiUser5Line } from 'react-icons/ri'
+import { AiOutlineHome } from 'react-icons/ai'
+import { ImBullhorn } from 'react-icons/im'
+import { GiPublicSpeaker, GiVote, GiWallet } from 'react-icons/gi'
 
 const BottomNavBar = props => {
     const history = useHistory()
@@ -36,25 +35,25 @@ const BottomNavBar = props => {
         <div className='bottom-nav'>
             <div className='bn-tab'>
                 {activeTabs === 'home' ?
-                    <RiHomeSmile2Fill
+                    <AiOutlineHome
                         size='35'
-                        color='#000'
+                        color='#fff'
                         onClick={() => setActiveTabs('home')}
                     /> :
-                    <RiHomeSmile2Line
+                    <AiOutlineHome
                         size='35'
-                        color='#000'
+                        color='#fff'
                         onClick={() => setActiveTabs('home')}
                     />}
             </div>
             <div className='bn-tab'>
                 {activeTabs === 'about' ?
-                    <RiSearchEyeFill
+                    <GiPublicSpeaker
                         size='35'
                         color='#000'
                         onClick={() => setActiveTabs('about')}
                     /> :
-                    <BiSearchAlt
+                    <GiPublicSpeaker
                         size='35'
                         color='#000'
                         onClick={() => setActiveTabs('about')}
@@ -62,12 +61,12 @@ const BottomNavBar = props => {
             </div>
             <div className='bn-tab'>
                 {activeTabs === 'volunteer' ?
-                    <AiFillHeart
+                    <ImBullhorn
                         size='35'
                         color='#000'
                         onClick={() => setActiveTabs('volunteer')}
                     /> :
-                    <AiOutlineHeart
+                    <ImBullhorn
                         size='35'
                         color='#000'
                         onClick={() => setActiveTabs('volunteer')}
@@ -75,12 +74,12 @@ const BottomNavBar = props => {
             </div>
             <div className='bn-tab'>
                 {activeTabs === 'vote' ?
-                    <RiUser5Fill
+                    <GiVote
                         size='35'
                         color='#000'
                         onClick={() => setActiveTabs('vote')}
                     /> :
-                    <RiUser5Line
+                    <GiVote
                         size='35'
                         color='#000'
                         onClick={() => setActiveTabs('vote')}
@@ -88,12 +87,12 @@ const BottomNavBar = props => {
             </div>
             <div className='bn-tab'>
                 {activeTabs === 'donate' ?
-                    <AiFillHeart
+                    <GiWallet
                         size='35'
                         color='#000'
                         onClick={() => setActiveTabs('donate')}
                     /> :
-                    <AiOutlineHeart
+                    <GiWallet
                         size='35'
                         color='#000'
                         onClick={() => setActiveTabs('donate')}
@@ -103,4 +102,4 @@ const BottomNavBar = props => {
     )
 }
 
-export default BottomNavBar 
+export default BottomNavBar
