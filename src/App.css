@@ -3,6 +3,24 @@
   margin: 0;
   box-sizing: border-box;
 }
+.top-nav {
+  width: 100%;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  bottom: 0;
+  border-top: 1px solid #183663;
+  background-color: #11b14c;
+}
+.top-tab {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 .bottom-nav {
   width: 100%;
   height: 50px;
@@ -31,12 +49,10 @@
 .nav-img-text-container {
   position: relative;
   text-align: center;
-  color: white;
   font-size: 30px;
   font-family: canada-type-gibson,sans-serif;
   font-weight: 600;
   font-style: normal;
-  padding: 10px;
 }
 .nav-img-text-centered {
   position: absolute;
