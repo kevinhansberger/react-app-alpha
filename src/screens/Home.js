@@ -7,7 +7,7 @@ const Home = () => {
             <h1>home</h1>
             <div class="nav-img-text-container">
             <img src="https://raw.githubusercontent.com/kevinhansberger/react-app-alpha/alpha/src/images/politician-app-btn-bg-01.jpg" class="nav-img-center" />
-            <div class="nav-img-text-centered">Test</div>
+            <div class="nav-img-text-centered">Endorsements</div>
             </div>
             <BottomNavBar name='home' />
         </div>

@@ -25,12 +25,13 @@
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 50%;
+  width: 90%;
 }
 .nav-img-text-container {
   position: relative;
   text-align: center;
   color: white;
+  font-size: 16px;
 }
 .nav-img-text-centered {
   position: absolute;
