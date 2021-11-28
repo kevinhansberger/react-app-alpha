@@ -43,3 +43,7 @@
   left: 50%;
   transform: translate(-50%, -50%);
 }
+.nav-img-text-style {
+  text-decoration: none;
+  text-decoration-color: white;
+}
