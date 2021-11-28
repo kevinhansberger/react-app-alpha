@@ -36,6 +36,8 @@
   font-family: canada-type-gibson,sans-serif;
   font-weight: 600;
   font-style: normal;
+  color: white;
+  text-decoration: none;
 }
 .nav-img-text-centered {
   position: absolute;
