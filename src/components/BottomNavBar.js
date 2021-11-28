@@ -37,12 +37,12 @@ const BottomNavBar = props => {
                 {activeTabs === 'home' ?
                     <AiOutlineHome
                         size='35'
-                        color='#fff'
+                        color='#183663'
                         onClick={() => setActiveTabs('home')}
                     /> :
                     <AiOutlineHome
                         size='35'
-                        color='#183663'
+                        color='#fff'
                         onClick={() => setActiveTabs('home')}
                     />}
             </div>
@@ -50,12 +50,12 @@ const BottomNavBar = props => {
                 {activeTabs === 'about' ?
                     <GiPublicSpeaker
                         size='35'
-                        color='#fff'
+                        color='#183663'
                         onClick={() => setActiveTabs('about')}
                     /> :
                     <GiPublicSpeaker
                         size='35'
-                        color='#183663'
+                        color='#fff'
                         onClick={() => setActiveTabs('about')}
                     />}
             </div>
@@ -63,12 +63,12 @@ const BottomNavBar = props => {
                 {activeTabs === 'volunteer' ?
                     <ImBullhorn
                         size='35'
-                        color='#fff'
+                        color='#183663'
                         onClick={() => setActiveTabs('volunteer')}
                     /> :
                     <ImBullhorn
                         size='35'
-                        color='#183663'
+                        color='#fff'
                         onClick={() => setActiveTabs('volunteer')}
                     />}
             </div>
@@ -76,12 +76,12 @@ const BottomNavBar = props => {
                 {activeTabs === 'vote' ?
                     <GiVote
                         size='35'
-                        color='#fff'
+                        color='#183663'
                         onClick={() => setActiveTabs('vote')}
                     /> :
                     <GiVote
                         size='35'
-                        color='#183663'
+                        color='#fff'
                         onClick={() => setActiveTabs('vote')}
                     />}
             </div>
@@ -89,12 +89,12 @@ const BottomNavBar = props => {
                 {activeTabs === 'donate' ?
                     <GiWallet
                         size='35'
-                        color='#fff'
+                        color='#183663'
                         onClick={() => setActiveTabs('donate')}
                     /> :
                     <GiWallet
                         size='35'
-                        color='#183663'
+                        color='#fff'
                         onClick={() => setActiveTabs('donate')}
                     />}
             </div>
