@@ -6,10 +6,9 @@ const Home = () => {
         <div>
             <h1>home</h1>
             <div class="nav-img-text-container">
-            <img src="https://raw.githubusercontent.com/kevinhansberger/react-app-alpha/alpha/src/images/politician-app-btn-bg-01.jpg" class="nav-img-center" />
+            <a href="/donate"><img src="https://raw.githubusercontent.com/kevinhansberger/react-app-alpha/alpha/src/images/politician-app-btn-bg-01.jpg" class="nav-img-center" /></a>
             <div class="nav-img-text-centered">The Flight Plan</div>
-            <div class="nav-img-text-container">
-            <img src="https://raw.githubusercontent.com/kevinhansberger/react-app-alpha/alpha/src/images/politician-app-btn-bg-01.jpg" class="nav-img-center" />
+            <a href="/donate"><img src="https://raw.githubusercontent.com/kevinhansberger/react-app-alpha/alpha/src/images/politician-app-btn-bg-01.jpg" class="nav-img-center" /></a>
             <div class="nav-img-text-centered">Upcoming Events</div>
             </div>
             <BottomNavBar name='home' />
