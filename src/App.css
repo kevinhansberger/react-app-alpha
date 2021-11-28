@@ -39,6 +39,7 @@
 .nav-img-text-container {
   position: relative;
   text-align: center;
+  width: 100%;
 }
 .nav-img-text-centered {
   position: absolute;
