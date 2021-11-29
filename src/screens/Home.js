@@ -20,6 +20,10 @@ const Home = () => {
             <a href="https://qrsnapper.com" target="_blank"><img src="/images/politician-app-btn-bg-01.jpg" class="nav-img-center" /></a>
             <div class="nav-img-text-centered"><a class="nav-img-text-style" href="https://qrsnapper.com" target="_blank">Check-In</a></div>
             </div>
+            <div class="nav-img-text-container">
+            <a href="/test"><img src="/images/politician-app-btn-bg-01.jpg" class="nav-img-center" /></a>
+            <div class="nav-img-text-centered"><a class="nav-img-text-style" href="/test">Test</a></div>
+            </div>
             <BottomNavBar name='home' />
         </div>
     )

@@ -10,7 +10,7 @@ const Vote = () => {
           <hr class="hr-bottom" />
           <div class="nav-img-text-container">
           <a href="/donate"><img src="/images/politician-app-btn-bg-01.jpg" class="nav-img-center" /></a>
-          <div class="nav-img-text-centered"><a class="nav-img-text-style" href="/donate">Register to Vote</a></div>
+          <div class="nav-img-text-centered"><a class="nav-img-text-style" href="https://indianavoters.in.gov/" target="_blank">Register to Vote</a></div>
           </div>
           <div class="nav-img-text-container">
           <a href="https://jrg.gop/donate" target="_blank"><img src="/images/politician-app-btn-bg-01.jpg" class="nav-img-center" /></a>
