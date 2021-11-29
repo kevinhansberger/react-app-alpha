@@ -9,7 +9,7 @@ const Donate = () => {
           <hr class="hr-top" />
           <hr class="hr-bottom" />
           <div class="nav-img-text-container">
-          <a href="https://jrg.gop/donate" target="_blank"><img src="https://raw.githubusercontent.com/kevinhansberger/react-app-alpha/alpha/src/images/politician-app-btn-bg-01.jpg" class="nav-img-center" /></a>
+          <a href="https://jrg.gop/donate" target="_blank"><img src="/images/politician-app-btn-bg-01.jpg" class="nav-img-center" /></a>
           <div class="nav-img-text-centered"><a class="nav-img-text-style" href="https://jrg.gop/donate" target="_blank">Donate Online</a></div>
           </div>
           <BottomNavBar name='donate' />
