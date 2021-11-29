@@ -1,9 +1,9 @@
 {
-  "short_name": "React App",
-  "name": "Create React App Sample",
+  "short_name": "Politician App",
+  "name": "Politician: Slogan",
   "icons": [
     {
-      "src": "/images/icons-512.png",
+      "src": "/images/pwa-icon-001.png",
       "type": "image/png",
       "sizes": "512x512"
     }
@@ -11,5 +11,5 @@
   "start_url": "/",
   "display": "standalone",
   "theme_color": "#11b14c",
-  "background_color": "#fff"
+  "background_color": "#11b14c"
 }
