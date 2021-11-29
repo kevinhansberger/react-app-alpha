@@ -17,12 +17,8 @@ const Home = () => {
             <div class="nav-img-text-centered"><a class="nav-img-text-style" href="/donate">Upcoming Events</a></div>
             </div>
             <div class="nav-img-text-container">
-            <a href="/donate"><img src="/images/politician-app-btn-bg-01.jpg" class="nav-img-center" /></a>
+            <a href="https://qrsnapper.com" target="_blank"><img src="/images/politician-app-btn-bg-01.jpg" class="nav-img-center" /></a>
             <div class="nav-img-text-centered"><a class="nav-img-text-style" href="https://qrsnapper.com" target="_blank">Check-In</a></div>
-            </div>
-            <div class="nav-img-text-container">
-            <a href="/donate"><img src="/images/politician-app-btn-bg-01.jpg" class="nav-img-center" /></a>
-            <div class="nav-img-text-centered"><a class="nav-img-text-style" href="https://qrsnapper.com">Check-In</a></div>
             </div>
             <BottomNavBar name='home' />
         </div>
