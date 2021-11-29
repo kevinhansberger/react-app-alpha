@@ -7,6 +7,7 @@ import About from './screens/About'
 import Volunteer from './screens/Volunteer'
 import Vote from './screens/Vote'
 import Donate from './screens/Donate'
+import Test from './screens/Test'
 
 const App = () => {
   return (
@@ -16,6 +17,7 @@ const App = () => {
       <Route exact path='/volunteer' component={Volunteer} />
       <Route exact path='/vote' component={Vote} />
       <Route exact path='/donate' component={Donate} />
+      <Route exact path='/test' component={Test} />
     </Router>
   )
 }
