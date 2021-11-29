@@ -58,6 +58,16 @@
   color: white;
   text-align: center;
 }
+.hr-top {
+  width: 80%;
+  border: 1px solid #11b14c;
+  margin: 2px auto;
+}
+.hr-bottom {
+  width: 80%;
+  border: 1px solid #183663;
+  margin: 2px auto;
+}
 .ghl-form {
   border:none;
   width: 100%;
