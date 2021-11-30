@@ -12,7 +12,7 @@ const Test = () => {
             <a href="/donate"><img src="/images/politician-app-btn-bg-01.jpg" class="nav-img-center" /></a>
             <div class="nav-img-text-centered"><a class="nav-img-text-style" href="/donate">The Flight Plan</a></div>
             </div>
-            <BottomNavBar name='test' />
+            <BottomNavBar />
         </div>
     )
 }
