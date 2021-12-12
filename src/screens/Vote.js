@@ -2,6 +2,7 @@ import React from 'react'
 import BottomNavBar from '../components/BottomNavBar'
 
 const Vote = () => {
+  React.useEffect(() => { window.scrollTo(0, 0); }, []);
     return (
       <div class="body-spacing">
           <div class="top-bar"><h1 class="top-bar-text">Politician</h1></div>

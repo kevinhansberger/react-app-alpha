@@ -2,6 +2,7 @@ import React from 'react'
 import BottomNavBar from '../components/BottomNavBar'
 
 const Test = () => {
+  React.useEffect(() => { window.scrollTo(0, 0); }, []);
     return (
         <div class="body-spacing">
             <div class="top-bar"><h1 class="top-bar-text">Politician</h1></div>
@@ -12,7 +13,6 @@ const Test = () => {
             <a href="/donate"><img src="/images/politician-app-btn-bg-01.jpg" class="nav-img-center" /></a>
             <div class="nav-img-text-centered"><a class="nav-img-text-style" href="/donate">The Flight Plan</a></div>
             </div>
-            <BottomNavBar />
         </div>
     )
 }
