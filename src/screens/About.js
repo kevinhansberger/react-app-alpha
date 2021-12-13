@@ -9,19 +9,12 @@ const About = () => {
           <h2 class="page-title">About</h2>
           <hr class="hr-top" />
           <hr class="hr-bottom" />
-          <div class="nav-img-text-container">
-          <a href="/donate"><img src="/images/politician-app-btn-bg-01.jpg" class="nav-img-center" /></a>
-          <div class="nav-img-text-centered"><a class="nav-img-text-style" href="/donate">Biography</a></div>
-          </div>
-          <div class="nav-img-text-container">
-          <a href="/donate"><img src="/images/politician-app-btn-bg-01.jpg" class="nav-img-center" /></a>
-          <div class="nav-img-text-centered"><a class="nav-img-text-style" href="/donate">Issues</a></div>
-          </div>
-          <div class="nav-img-text-container">
-          <a href="/donate"><img src="/images/politician-app-btn-bg-01.jpg" class="nav-img-center" /></a>
-          <div class="nav-img-text-centered"><a class="nav-img-text-style" href="/donate">Endorsements</a></div>
-          </div>
-            <BottomNavBar name='about' />
+          <h3 class="btn-container"><p class="btn-img-p"><a href="#">Bio</a></p></h3>
+          <h3 class="btn-container"><p class="btn-img-p"><a href="#">Platform</a></p></h3>
+          <h3 class="btn-container"><p class="btn-img-p"><a href="#">Endorsements</a></p></h3>
+          <h3 class="btn-container"><p class="btn-img-p"><a href="#">Legislation</a></p></h3>
+          <h3 class="btn-container"><p class="btn-img-p"><a href="#">Community</a></p></h3>
+          <BottomNavBar name='about' />
         </div>
     )
 }

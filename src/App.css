@@ -15,6 +15,12 @@
 }
 .top-bar {
   padding-bottom: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  width: 100%;
 }
 .top-bar-text {
   width: 100%;
@@ -31,6 +37,7 @@
   padding-top: 7px;
 }
 .body-spacing {
+  padding-top: 50px;
   padding-bottom: 60px;
 }
 .page-title {
@@ -40,34 +47,34 @@
   font-style: normal;
   text-align: center;
 }
-.nav-img-center {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 100%;
-  padding: 10px;
+
+.btn-container {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  width: 90%;
+  margin: auto;
+
 }
-.nav-img-text-container {
-  position: relative;
+.btn-img-p {
+  background: url(../public/images/politician-app-btn-bg-01.jpg);
   text-align: center;
-  width: 100%;
+  padding: 50px 50px 50px 50px;
+  border: 2px solid #183663;
+
+  /* Needs prefixing */
+  -webkit-box-decoration-break: clone;
+  box-decoration-break: clone;
 }
-.nav-img-text-centered {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-}
-.nav-img-text-style {
+.btn-img-p a {
+  text-decoration-color: white;
   text-decoration: none;
   font-size: 26px;
   font-family: canada-type-gibson,sans-serif;
   font-weight: 600;
   font-style: normal;
-  text-decoration-color: white;
   color: white;
-  text-align: center;
 }
+
 .hr-top {
   width: 80%;
   border: 1px solid #11b14c;

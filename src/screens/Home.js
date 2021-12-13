@@ -1,30 +1,20 @@
 import React from 'react'
 import BottomNavBar from '../components/BottomNavBar'
+import TopBar from '../components/TopBar'
 
 const Home = () => {
   React.useEffect(() => { window.scrollTo(0, 0); }, []);
     return (
         <div class="body-spacing">
-            <div class="top-bar"><h1 class="top-bar-text">Politician</h1></div>
+            <TopBar />
             <h2 class="page-title">Welcome</h2>
             <hr class="hr-top" />
             <hr class="hr-bottom" />
-            <div class="nav-img-text-container">
-            <a href="/donate"><img src="/images/politician-app-btn-bg-01.jpg" class="nav-img-center" /></a>
-            <div class="nav-img-text-centered"><a class="nav-img-text-style" href="/donate">The Flight Plan</a></div>
-            </div>
-            <div class="nav-img-text-container">
-            <a href="/donate"><img src="/images/politician-app-btn-bg-01.jpg" class="nav-img-center" /></a>
-            <div class="nav-img-text-centered"><a class="nav-img-text-style" href="/donate">Upcoming Events</a></div>
-            </div>
-            <div class="nav-img-text-container">
-            <a href="https://qrsnapper.com" target="_blank"><img src="/images/politician-app-btn-bg-01.jpg" class="nav-img-center" /></a>
-            <div class="nav-img-text-centered"><a class="nav-img-text-style" href="https://qrsnapper.com" target="_blank">Check-In</a></div>
-            </div>
-            <div class="nav-img-text-container">
-            <a href="/test"><img src="/images/politician-app-btn-bg-01.jpg" class="nav-img-center" /></a>
-            <div class="nav-img-text-centered"><a class="nav-img-text-style" href="/test">Test</a></div>
-            </div>
+            <h3 class="btn-container"><p class="btn-img-p"><a href="/donate">Donation Guidelines</a></p></h3>
+            <h3 class="btn-container"><p class="btn-img-p"><a href="#">Platform</a></p></h3>
+            <h3 class="btn-container"><p class="btn-img-p"><a href="#">District Map</a></p></h3>
+            <h3 class="btn-container"><p class="btn-img-p"><a href="#">Handbook</a></p></h3>
+            <h3 class="btn-container"><p class="btn-img-p"><a href="/test">Test</a></p></h3>
             <BottomNavBar name='home' />
         </div>
     )

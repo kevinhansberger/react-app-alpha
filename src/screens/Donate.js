@@ -9,10 +9,10 @@ const Donate = () => {
           <h2 class="page-title">Donate</h2>
           <hr class="hr-top" />
           <hr class="hr-bottom" />
-          <div class="nav-img-text-container">
-          <a href="https://jrg.gop/donate" target="_blank"><img src="/images/politician-app-btn-bg-01.jpg" class="nav-img-center" /></a>
-          <div class="nav-img-text-centered"><a class="nav-img-text-style" href="https://jrg.gop/donate" target="_blank">Donate Online</a></div>
-          </div>
+          <h3 class="btn-container"><p class="btn-img-p"><a href="#">Donate Online</a></p></h3>
+          <h3 class="btn-container"><p class="btn-img-p"><a href="#">Mail A Check</a></p></h3>
+          <h3 class="btn-container"><p class="btn-img-p"><a href="#">Attend Fundraiser</a></p></h3>
+          <h3 class="btn-container"><p class="btn-img-p"><a href="#">Donation Guidelines</a></p></h3>
           <BottomNavBar name='donate' />
       </div>
     )

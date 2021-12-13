@@ -9,10 +9,7 @@ const Test = () => {
             <h2 class="page-title">Test</h2>
             <hr class="hr-top" />
             <hr class="hr-bottom" />
-            <div class="nav-img-text-container">
-            <a href="/donate"><img src="/images/politician-app-btn-bg-01.jpg" class="nav-img-center" /></a>
-            <div class="nav-img-text-centered"><a class="nav-img-text-style" href="/donate">The Flight Plan</a></div>
-            </div>
+            <h3 class="btn-container"><p class="btn-img-p"><a href="#">Test</a></p></h3>
         </div>
     )
 }

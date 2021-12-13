@@ -9,15 +9,11 @@ const Vote = () => {
           <h2 class="page-title">Vote</h2>
           <hr class="hr-top" />
           <hr class="hr-bottom" />
-          <div class="nav-img-text-container">
-          <a href="/donate"><img src="/images/politician-app-btn-bg-01.jpg" class="nav-img-center" /></a>
-          <div class="nav-img-text-centered"><a class="nav-img-text-style" href="https://indianavoters.in.gov/" target="_blank">Register to Vote</a></div>
-          </div>
-          <div class="nav-img-text-container">
-          <a href="https://jrg.gop/donate" target="_blank"><img src="/images/politician-app-btn-bg-01.jpg" class="nav-img-center" /></a>
-          <div class="nav-img-text-centered"><a class="nav-img-text-style" href="https://jrg.gop/donate" target="_blank">Request Absentee Ballot</a></div>
-          </div>
-            <BottomNavBar name='vote' />
+          <h3 class="btn-container"><p class="btn-img-p"><a href="#">Find Your Polling Location</a></p></h3>
+          <h3 class="btn-container"><p class="btn-img-p"><a href="#">Early Voting Polling Locations</a></p></h3>
+          <h3 class="btn-container"><p class="btn-img-p"><a href="#">Request Absentee Ballot</a></p></h3>
+          <h3 class="btn-container"><p class="btn-img-p"><a href="#">Register to Vote</a></p></h3>
+          <BottomNavBar name='vote' />
         </div>
     )
 }
