@@ -22,4 +22,8 @@ const App = () => {
   )
 }
 
+document.addEventListener("contextmenu", (event) => {
+  event.preventDefault();
+});
+
 export default App
